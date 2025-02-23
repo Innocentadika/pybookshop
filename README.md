@@ -7,33 +7,33 @@
 #### This will run on localhost:5173
 ####
 ## Server
-### visit pip.pya.io/en/stable/installation
+### 1: visit pip.pya.io/en/stable/installation
 #### selection you os eg windows as what am using
 #### Download the script(right click on the link and save to desktop /onedrive/desktop/<paste here>
 #### Navigate to powershel and run as an administrator
 #### Enter this -> py get-pip.py
 #### remember this installs pip into the system and make sure python is installed and is in the sysytem
 ####
-### Installing Django
+### 2: Installing Django
 #### python -m django startproject <give prefered project name>
 #### cd <your project name> 
 #### run python manage.py startapp api
 ####
-### navigate to settings.py
+### 3: navigate to settings.py
 #### add 'api'
 #### 'rest_framework'
 #### exit file
 ####
-### create file model.py
+### 4: create file model.py
 #### then run
 #### python manage.py makemigrations
 #### python manage.py migrate
 ####
-### create file serializer.py
+### 5: create file serializer.py
 #### add -> from rest_framework import Serialisers
 #### (note this makes python have the ability to read the json files)
 
-### Navigate to views.py
+### 6: Navigate to views.py
 ### add this imports
 #### 1: add -> from rest_framework.decorators import api_view
 #### 2: add -> from rest_framework.response import Response
