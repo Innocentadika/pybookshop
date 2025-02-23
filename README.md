@@ -41,3 +41,6 @@
 #### 4: add -> from .models import <name of model for this case is Book>
 #### add -> add codes for the POST and GET methods
 
+### 7: creating a connection to communicate with client-side
+#### run -> pip install django-cors-headers
+
