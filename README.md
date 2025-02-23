@@ -9,14 +9,14 @@
 ## Server
 ### 1: visit pip.pya.io/en/stable/installation
 #### selection you os eg windows as what am using
-#### Download the script(right click on the link and save to desktop /onedrive/desktop/<paste here>
+#### Download the script(right click on the link and save to desktop /onedrive/desktop/(save here).
 #### Navigate to powershel and run as an administrator
 #### Enter this -> py get-pip.py
 #### remember this installs pip into the system and make sure python is installed and is in the sysytem
 ####
 ### 2: Installing Django
 #### python -m django startproject <give prefered project name>
-#### cd <your project name> 
+#### cd project<your project name> 
 #### run python manage.py startapp api
 ####
 ### 3: navigate to settings.py
@@ -41,6 +41,6 @@
 #### 4: add -> from .models import <name of model for this case is Book>
 #### add -> add codes for the POST and GET methods
 
-### 7: creating a connection to communicate with client-side
+### 7: creating a connection to communicate with client-side on server-side
 #### run -> pip install django-cors-headers
 
