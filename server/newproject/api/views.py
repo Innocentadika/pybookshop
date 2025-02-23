@@ -11,6 +11,7 @@ def get_books(request):
     serializedData = BookSerializer(books, many=True).data
     return Response(serializedData)
 
+
 @api_view(["POST"])
 def create_books(request):
     data = request.data
