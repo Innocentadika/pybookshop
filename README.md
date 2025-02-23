@@ -7,7 +7,7 @@
 #### This will run on localhost:5173
 ####
 ## Server
-### 1: visit pip.pya.io/en/stable/installation
+### 1: visit https://pip.pypa.io/en/stable/installation/
 #### selection you os eg windows as what am using
 #### Download the script(right click on the link and save to desktop /onedrive/desktop/(save here).
 #### Navigate to powershel and run as an administrator
