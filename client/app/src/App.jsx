@@ -12,7 +12,7 @@ const fetchBooks = async () => {
   try {
     const response = await fetch("http://127.0.0.1:8000/api/books/");
     const data = await response.json();
-    console.log(data);
+    setBooks(data);
     
   } catch (error) {
     console.log(error);
@@ -30,6 +30,12 @@ const fetchBooks = async () => {
           <input type="number" placeholder='Release date'/>
           <button type="submit">Add Book</button>
         </div>
+        {books.map((books, id) => (
+          <div key={id}>
+            <p>{books.title}</p>
+            <p>{books.release_year}</p>
+          </div>
+        ))}
       </div>
     </>
   )
