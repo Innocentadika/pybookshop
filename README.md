@@ -43,4 +43,5 @@
 
 ### 7: creating a connection to communicate with client-side on server-side
 #### run -> pip install django-cors-headers
-
+#### add to settings.py and middleware
+#### bottom-end set to particluar site or for demo and all set/add -> CORS_ALLOW_ALL_ORIGINS = True
