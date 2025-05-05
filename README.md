@@ -15,6 +15,7 @@
 #### remember this installs pip into the system and make sure python is installed and is in the sysytem
 ####
 ### 2: Installing Django
+#### pip install django django restframework
 #### python -m django startproject <give prefered project name>
 #### cd project<your project name> 
 #### run python manage.py startapp api
@@ -45,3 +46,15 @@
 #### run -> pip install django-cors-headers
 #### add to settings.py and middleware
 #### bottom-end set to particluar site or for demo and all set/add -> CORS_ALLOW_ALL_ORIGINS = True
+
+### 8: cloning 
+#### before committing code always
+#### run -> pip freeze > requirements.txt
+
+### 9: cloning 
+#### clone the project
+#### run -> python -m venv venv
+#### run -> source venv/bin/activate  # macOS/Linux
+#### run -> venv\Scripts\activate     # Windows
+
+#### run -> pip install -r requirements.txt
