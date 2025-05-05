@@ -42,16 +42,16 @@
 #### 4: add -> from .models import <name of model for this case is Book>
 #### add -> add codes for the POST and GET methods
 
-### 7: creating a connection to communicate with client-side on server-side
+### 7: Creating a connection to communicate with client-side on server-side
 #### run -> pip install django-cors-headers
 #### add to settings.py and middleware
 #### bottom-end set to particluar site or for demo and all set/add -> CORS_ALLOW_ALL_ORIGINS = True
 
-### 8: cloning 
+### 8: Commit 
 #### before committing code always
 #### run -> pip freeze > requirements.txt
 
-### 9: cloning 
+### 9: Cloning 
 #### clone the project
 #### run -> python -m venv venv
 #### run -> source venv/bin/activate  # macOS/Linux
